@@ -1,0 +1,32 @@
+{
+  "name": "demo-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It acts as a bridge between your Node.js application and MongoDB, providing a structured way to interact with the database.",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehungrycoder225/guide-to-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thehungrycoder225/guide-to-mongodb/issues"
+  },
+  "homepage": "https://github.com/thehungrycoder225/guide-to-mongodb#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
